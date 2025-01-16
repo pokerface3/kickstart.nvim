@@ -599,5 +599,5 @@ vim.keymap.set("n", "N", "Nzzzv")
 -- greatest remap ever
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
-vim.keymap.set("n", "<leader>df", ":Gdiff")
+vim.keymap.set("n", "<leader>df", ":Gdiffsplit")
 vim.keymap.set("n", "Q", "<nop>")
