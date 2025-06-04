@@ -9,8 +9,8 @@ return{
       provider = "openai",
       providers = {
         openai = {
-          endpoint = "https://api.openai.com/v1",
-          model = "gpt-4o", -- your desired model (or use gpt-4o, etc.)
+          endpoint = "http://127.0.0.1:11434/v1",
+          model = "sam4096/qwen2tools", -- your desired model (or use gpt-4o, etc.)
           extra_request_body = {
             timeout = 30000, -- Timeout in milliseconds, increase this for reasoning models
             temperature = 0.75,
